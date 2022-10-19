@@ -22,22 +22,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">
+                        <a class="nav-link active" href="#home">
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            About me
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#portfolio">
                             Portfolio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#contact">
                             Contact
                         </a>
                     </li>
@@ -48,7 +43,7 @@
     <!-- End of Navbar -->
 
     <!-- Hero Section -->
-    <div class="section min-vh-100 text-white" id="hero-section">
+    <div class="section min-vh-100 text-white" id="home">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -96,7 +91,7 @@
     <!-- End of Tech Stack Section -->
 
     <!-- Portfolio Section -->
-    <div class="section min-vh-100 bg-purple py-5">
+    <div class="section min-vh-100 bg-purple py-5" id="portfolio">
         <div class="container">
             <h2 class="text-white">My Portfolio</h2>
             <div class="cards">
@@ -202,17 +197,18 @@
                                     Si Kalbar
                                 </h2>
                                 <p>
-                                    Perancangan Line Bot untuk berkirim pesan secara otomatis menggunakan
-                                    <strong>PHP</strong>
+                                    Sistem Informasi Kalimantan Barat berbasis web yang menampilkan visualisasi data
                                 </p>
                             </div>
                             <div class="card-flap flap1">
                                 <div class="card-description p-3">
                                     <div class="mb-3">
                                         <span class="badge rounded-pill text-bg-danger">Backend</span>
+                                        <span class="badge rounded-pill text-bg-primary">Frontend</span>
                                         <span class="badge rounded-pill text-bg-success">API</span>
+                                        <span class="badge rounded-pill text-bg-warning">Data Mining</span>
                                     </div>
-                                    Perancangan Service Line Bot dengan PHP ini memanfaatkan Software Development Kit yang sudah disediakan oleh <a href="https://developers.line.biz/en/">https://developers.line.biz/en/</a>
+                                    Sistem ini menampilkan informasi data pemberdayaan masyarakat kalimantan barat dikembangkan menggunakan Pyspark dan Apache Echarts
                                 </div>
                                 <!-- <div class="card-flap flap2">
                                     <div class="card-actions">
@@ -225,7 +221,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card__image-holder">
-                                <img class="card__image" src="./asset/portfolio/bukatoko.jpg" alt="wave" />
+                                <img class="card__image" src="./asset/portfolio/bukatoko.png" alt="wave" />
                             </div>
                             <div class="card-title">
                                 <h2 class="text-start my-2">
@@ -239,14 +235,13 @@
                                 <div class="card-description p-3">
                                     <div class="mb-3">
                                         <span class="badge rounded-pill text-bg-primary">Backend</span>
-                                        <span class="badge rounded-pill text-bg-danger">Frontend</span>
-                                        <span class="badge rounded-pill text-bg-success">Web Socket</span>
+                                        <span class="badge rounded-pill text-bg-success">API</span>
                                     </div>
-                                    Perancangan Aplikasi real time chat dengan memanfaatkan jalur komunikasi web socket, aplikasi ini dikembangkan menggunakan salah satu library node js yaitu socket.io, aplikasi bekerja seperti group chat platform zoom dimana setiap pengguna dapat melakukan chat secara publik ataupun personal ke pengguna tertentu.
+                                    Sistem ini terdiri dari 3 sub sistem yang berbeda dirancang dengan arsitektur microservice, dikembangkan dengan teknologi node js dan python flask
                                 </div>
                                 <div class="card-flap flap2">
                                     <div class="card-actions">
-                                        <a href="https://gitlab.com/radityo.hanif/obrolan-chat-app" target="_blank" class="btn btn-dark">Lihat Detail</a>
+                                        <a href="https://gitlab.com/radityo.hanif/bukatoko" target="_blank" class="btn btn-dark">Lihat Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -258,8 +253,8 @@
     </div>
     <!-- End of Portfolio Section -->
 
-    <!-- Tech Stack Section -->
-    <div class="section bg-black text-white">
+    <!-- Contact Section -->
+    <div class="section bg-black text-white" id="contact">
         <div class="container my-5">
             <h2>
                 Find me here
@@ -288,7 +283,7 @@
             </div>
         </div>
     </div>
-    <!-- End of Tech Stack Section -->
+    <!-- End of Contact Section -->
 
     <!-- Whatsapp Button -->
     <a href="https://api.whatsapp.com/send?phone=6281280300537" target="_blank" class="btn btn-primary" id="whatsapp-button">
