@@ -78,10 +78,10 @@ h2 {
 }
 
 /* Hero Section */
-#hero-section {
+#home {
     background: linear-gradient(141.49deg, #8C1DE2 49.38%, rgba(36, 0, 255, 0.72) 103.37%);
 }
-#hero-section h1 {
+#home h1 {
     font-size: 52px;
     font-weight: 900;
 }
