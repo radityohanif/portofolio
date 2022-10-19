@@ -42,6 +42,7 @@ div.card div.card-title {
     padding: 6px 15px 10px;
     position: relative;
     z-index: 0;
+    height: 200px;
 }
 
 div.card div.card-title a.toggle-info {
