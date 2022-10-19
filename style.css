@@ -97,3 +97,12 @@ h2 {
     left: 50px;
     animation: float 2s infinite ease-in-out;
 }
+
+/* Footer Section */
+#contact a {
+    transition: 0.5s all;
+    color: white;
+}
+#contact a:hover {
+    color: rgba(105, 52, 244, 1) !important;
+}

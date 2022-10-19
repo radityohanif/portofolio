@@ -2,7 +2,12 @@
     .invisible-on-mobile {
         display: none;
     }
-    #home .col-lg-6{
+
+    #home .col-lg-6 {
         text-align: center;
+    }
+
+    #contact a {
+        font-size: 50px !important;
     }
 }
